@@ -1,5 +1,5 @@
-#macro MAP_W 32
-#macro MAP_H 24
+#macro MAP_W 64
+#macro MAP_H 32
 #macro TILE_W 32
 #macro TILE_H 16
 #macro SCREEN_W 1024
@@ -7,6 +7,8 @@
 
 enum TILE {
 	SPRITE = 0,
+	DECOR_INDEX,
+	HEIGHT,
 	Z = 1
 }
 

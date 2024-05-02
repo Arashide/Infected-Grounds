@@ -1,5 +1,5 @@
-function TileToScreenX( _tY, _tX) {
+function TileToScreenX( _tX, _tY) {
 
-return ((_tX + _tY) * (TILE_W * 0.5));
+return ((_tX - _tY) * (TILE_W * 0.5)) + (SCREEN_W * 0.35);
 
 }
