@@ -15,5 +15,4 @@
 	//		draw_sprite(sTree, tileIndex - 1, screenX, screenY + tileZ );
 	//	}
 //	}
-	
 //}
