@@ -22,7 +22,7 @@ for (var tX = 0; tX < MAP_W; tX++) {
 		
 		if (tileIndex != 0) {
 			for (var draw_height = 0; draw_height <= height; draw_height++) {
-				var rgb_value = 170 + (draw_height * 10);
+				var rgb_value = 150 + (draw_height * 10);
 				var col = make_color_rgb(rgb_value, rgb_value, rgb_value);
 				
 				draw_sprite_ext(sStatic, tileIndex - 1, screenX, (screenY + tileZ)  - (draw_height * (TILE_H)), 1, 1, 0, col, 1);

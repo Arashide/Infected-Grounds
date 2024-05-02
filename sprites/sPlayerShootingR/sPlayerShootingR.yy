@@ -2,22 +2,21 @@
   "$GMSprite":"",
   "%Name":"sPlayerShootingR",
   "bboxMode":0,
-  "bbox_bottom":154,
-  "bbox_left":3,
+  "bbox_bottom":152,
+  "bbox_left":0,
   "bbox_right":95,
-  "bbox_top":29,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a719f777-4177-4acb-94d0-1d25cb5f5a13","name":"a719f777-4177-4acb-94d0-1d25cb5f5a13","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"83433246-41d9-433d-834b-b79a9333d243","name":"83433246-41d9-433d-834b-b79a9333d243","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"15e64752-6299-46e9-9f74-a5c01369121e","name":"15e64752-6299-46e9-9f74-a5c01369121e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"2a5bcac1-6132-4bc0-8919-66a6e9b8aee3","name":"2a5bcac1-6132-4bc0-8919-66a6e9b8aee3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0b4a7e49-2453-443c-aa76-3c4dade209d5","name":"0b4a7e49-2453-443c-aa76-3c4dade209d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"698390a0-6c98-4c10-8ebe-d931b13349d0","name":"698390a0-6c98-4c10-8ebe-d931b13349d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d35af731-7232-43d5-b40d-0904d4a00f19","name":"d35af731-7232-43d5-b40d-0904d4a00f19","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -54,7 +53,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":6.0,
+    "length":5.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -74,29 +73,26 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a719f777-4177-4acb-94d0-1d25cb5f5a13","path":"sprites/sPlayerShootingR/sPlayerShootingR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d21e2ed0-8ed4-4ccb-8799-9b30f04dddfc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"83433246-41d9-433d-834b-b79a9333d243","path":"sprites/sPlayerShootingR/sPlayerShootingR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c0b23337-4b83-4a42-91dd-ea7fef2ba56b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"c0b23337-4b83-4a42-91dd-ea7fef2ba56b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"15e64752-6299-46e9-9f74-a5c01369121e","path":"sprites/sPlayerShootingR/sPlayerShootingR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7b10626d-c449-4f24-a861-913c95b42671","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"7b10626d-c449-4f24-a861-913c95b42671","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2a5bcac1-6132-4bc0-8919-66a6e9b8aee3","path":"sprites/sPlayerShootingR/sPlayerShootingR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ca80c9bf-ee2c-4617-85e5-e6ad4a76a4f6","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ca80c9bf-ee2c-4617-85e5-e6ad4a76a4f6","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b4a7e49-2453-443c-aa76-3c4dade209d5","path":"sprites/sPlayerShootingR/sPlayerShootingR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c9e0e0df-9817-4f50-8bd3-8eafdd384e13","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"698390a0-6c98-4c10-8ebe-d931b13349d0","path":"sprites/sPlayerShootingR/sPlayerShootingR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"527a9f82-7acc-451b-92d2-fa47ab287da1","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d35af731-7232-43d5-b40d-0904d4a00f19","path":"sprites/sPlayerShootingR/sPlayerShootingR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"25f50a82-0080-4d1c-bd9a-a395a03a0277","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":51,
-    "yorigin":155,
+    "yorigin":148,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
