@@ -45,8 +45,6 @@ for (var tX = 0; tX < MAP_W; tX++) {
 				
 			}
 			
-		
-			
 		}
 		
 			if y < TileToScreenY(tX, tY) {
