@@ -20,6 +20,7 @@
     {"name":"oBullet","order":4,"path":"objects/oBullet/oBullet.yy",},
     {"name":"oDecoMapCreate","order":2,"path":"objects/oDecoMapCreate/oDecoMapCreate.yy",},
     {"name":"oHeightMapCreate","order":1,"path":"objects/oHeightMapCreate/oHeightMapCreate.yy",},
+    {"name":"oPlayer","order":3,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"GridPlaceMeeting","order":5,"path":"scripts/GridPlaceMeeting/GridPlaceMeeting.yy",},
     {"name":"ScreenToTileX","order":3,"path":"scripts/ScreenToTileX/ScreenToTileX.yy",},
     {"name":"ScreenToTileY","order":4,"path":"scripts/ScreenToTileY/ScreenToTileY.yy",},
