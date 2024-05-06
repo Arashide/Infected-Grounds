@@ -1,8 +1,8 @@
 // You can write your code in this editor
 
 layer_set_visible("Map", false);
-x = TileToScreenX(x / TILE_W, y / TILE_W ) + 250;
-y = TileToScreenY(x / TILE_W, y / TILE_W ) + 250;
+x = TileToScreenX(32, 32);
+y = TileToScreenY(32, 32);
 global.dir = 0;
 
 
