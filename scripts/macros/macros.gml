@@ -1,4 +1,4 @@
-#macro MAP_W 64
+#macro MAP_W 128
 #macro MAP_H 64
 #macro TILE_W 32
 #macro TILE_H 16

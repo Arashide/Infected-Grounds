@@ -1,4 +1,6 @@
- 
+
+show_debug_message(ScreenToTileY(x, y))
+
 if (keyboard_check(ord("A")) )
 {
     if !GridPlaceMeeting (x - 2, y - 1) {

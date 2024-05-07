@@ -11,17 +11,17 @@ x = xx;
 y = yy;
 
 
-var xD = global.HeightMap[# ScreenToTileX(x + 16, y), ScreenToTileY(x + 16, y)]
-var yD = global.HeightMap[# ScreenToTileX(x, y - 16), ScreenToTileY(x, y - 16)]
+var xD = global.HeightMap[# ScreenToTileX(x + 8, y), ScreenToTileY(x + 8, y)]
+var yD = global.HeightMap[# ScreenToTileX(x, y - 8), ScreenToTileY(x, y - 8)]
 
-var xA = global.DecoMap[# ScreenToTileX(x + 16, y), ScreenToTileY(x + 16, y)]
-var yA = global.DecoMap[# ScreenToTileX(x, y - 16), ScreenToTileY(x, y - 16)]
+var xA = global.DecoMap[# ScreenToTileX(x + 8, y), ScreenToTileY(x + 8, y)]
+var yA = global.DecoMap[# ScreenToTileX(x, y - 8), ScreenToTileY(x, y - 8)]
 
-var xE = global.HeightMap[# ScreenToTileX(x - 16, y), ScreenToTileY(x - 16, y)]
-var yE = global.HeightMap[# ScreenToTileX(x, y + 16), ScreenToTileY(x, y + 16)]
+var xE = global.HeightMap[# ScreenToTileX(x - 8, y), ScreenToTileY(x - 8, y)]
+var yE = global.HeightMap[# ScreenToTileX(x, y + 8), ScreenToTileY(x, y + 8)]
 
-var xB = global.DecoMap[# ScreenToTileX(x - 16, y), ScreenToTileY(x - 16, y)]
-var yB = global.DecoMap[# ScreenToTileX(x, y + 16), ScreenToTileY(x, y + 16)]
+var xB = global.DecoMap[# ScreenToTileX(x - 8, y), ScreenToTileY(x - 8, y)]
+var yB = global.DecoMap[# ScreenToTileX(x, y + 8), ScreenToTileY(x, y + 8)]
 
 var xF = global.HeightMap[# ScreenToTileX(xx, yy), ScreenToTileY(xx, yy)]
 var xC = global.DecoMap[# ScreenToTileX(xx, yy), ScreenToTileY(xx, yy)]
