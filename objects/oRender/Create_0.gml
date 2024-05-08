@@ -4,6 +4,7 @@ layer_set_visible("Map", false);
 x = TileToScreenX(x / TILE_W, y / TILE_W ) + 250;
 y = TileToScreenY(x / TILE_W, y / TILE_W ) + 250;
 global.dir = 0;
+global.canshoot = true;
 
 
 global.theMap = ds_grid_create(MAP_W, MAP_H);

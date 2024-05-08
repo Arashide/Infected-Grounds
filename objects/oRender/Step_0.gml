@@ -43,23 +43,34 @@ else if (keyboard_check(ord("D")))
 	}	
 }
 else if (keyboard_check(vk_space)) {
-		if (global.dir == 1) {
-			sprite_index = sPlayerShootingL;
-			image_speed = 1;
+	if (global.canshoot) {
+		global.canshoot = false;
+        alarm[0] = game_get_speed(gamespeed_fps);
+        with(instance_create_layer(x + 5, y - 20, "Instances", oBullet)) {
+
+			bullet_speed = 5;
+
 		}
-		if (global.dir == 2) {
-			sprite_index = sPlayerShootingR ;
-			image_speed = 1;
-		}
+
+
+			if (global.dir == 1) {
+				sprite_index = sPlayerShootingL;
+				image_speed = 1;
+			}
+			if (global.dir == 2) {
+				sprite_index = sPlayerShootingR ;
+				image_speed = 1;
+			}
 		
-		if (global.dir == 3) {
-			sprite_index = sPlayerShootingBL;
-			image_speed = 1;
-		}
+			if (global.dir == 3) {
+				sprite_index = sPlayerShootingBL;
+				image_speed = 1;
+			}
 		
-		if (global.dir == 4) {
-			sprite_index = sPlayerShootingBR;
-			image_speed = 1;
+			if (global.dir == 4) {
+				sprite_index = sPlayerShootingBR;
+				image_speed = 1;
+			}
 		}
 	}
 

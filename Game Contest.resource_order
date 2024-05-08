@@ -51,6 +51,7 @@
     {"name":"sPlayerShootingBR","order":20,"path":"sprites/sPlayerShootingBR/sPlayerShootingBR.yy",},
     {"name":"sPlayerShootingL","order":9,"path":"sprites/sPlayerShootingL/sPlayerShootingL.yy",},
     {"name":"sPlayerShootingR","order":22,"path":"sprites/sPlayerShootingR/sPlayerShootingR.yy",},
+    {"name":"sBullet","order":39,"path":"sprites/sBullet/sBullet.yy",},
     {"name":"sSkybox","order":25,"path":"sprites/sSkybox/sSkybox.yy",},
     {"name":"sTileSheet","order":1,"path":"sprites/sTileSheet/sTileSheet.yy",},
     {"name":"sTree","order":2,"path":"sprites/sTree/sTree.yy",},

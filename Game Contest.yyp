@@ -72,6 +72,7 @@
     {"id":{"name":"sPlayerShootingBR","path":"sprites/sPlayerShootingBR/sPlayerShootingBR.yy",},},
     {"id":{"name":"sPlayerShootingL","path":"sprites/sPlayerShootingL/sPlayerShootingL.yy",},},
     {"id":{"name":"sPlayerShootingR","path":"sprites/sPlayerShootingR/sPlayerShootingR.yy",},},
+    {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
     {"id":{"name":"sSkybox","path":"sprites/sSkybox/sSkybox.yy",},},
     {"id":{"name":"sStatic","path":"sprites/sStatic/sStatic.yy",},},
     {"id":{"name":"sTileSheet","path":"sprites/sTileSheet/sTileSheet.yy",},},
