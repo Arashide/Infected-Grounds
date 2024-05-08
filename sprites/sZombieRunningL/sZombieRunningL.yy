@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"sZombieRunningR",
+  "%Name":"sZombieRunningL",
   "bboxMode":0,
   "bbox_bottom":160,
   "bbox_left":3,
@@ -23,7 +23,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"c44eb736-eef2-4a12-a42d-e012297cddab","blendMode":0,"displayName":"default","isLocked":false,"name":"c44eb736-eef2-4a12-a42d-e012297cddab","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sZombieRunningR",
+  "name":"sZombieRunningL",
   "nineSlice":null,
   "origin":9,
   "parent":{
@@ -35,7 +35,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"sZombieRunningR",
+    "%Name":"sZombieRunningL",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -59,7 +59,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sZombieRunningR",
+    "name":"sZombieRunningL",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -71,13 +71,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f3d0ad8-9ad0-40ee-bdd1-2f1814fac6bf","path":"sprites/sZombieRunningR/sZombieRunningR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f3d0ad8-9ad0-40ee-bdd1-2f1814fac6bf","path":"sprites/sZombieRunningL/sZombieRunningL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"96590220-e1e9-4b82-b29b-306ba8f895a1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b0ef79e-a6aa-4faf-a16b-1c543e5a2291","path":"sprites/sZombieRunningR/sZombieRunningR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b0ef79e-a6aa-4faf-a16b-1c543e5a2291","path":"sprites/sZombieRunningL/sZombieRunningL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"330e7bc1-ee35-464d-ad74-26486bc367d8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da347abd-1b4d-4bc7-90b2-155b8396e9a8","path":"sprites/sZombieRunningR/sZombieRunningR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da347abd-1b4d-4bc7-90b2-155b8396e9a8","path":"sprites/sZombieRunningL/sZombieRunningL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"24400784-14c8-40ca-b151-ad750f44b9ff","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
