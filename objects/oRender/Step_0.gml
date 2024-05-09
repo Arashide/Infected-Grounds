@@ -1,4 +1,4 @@
-
+var last_frame_of_animation = image_number - sprite_get_speed(sprite_index)/room_speed;
 show_debug_message(ScreenToTileY(x, y))
 
 if (keyboard_check(ord("A")) )
@@ -45,26 +45,58 @@ else if (keyboard_check(ord("D")))
 else if (keyboard_check(vk_space)) {
 	if (global.canshoot) {
 		global.canshoot = false;
-        alarm[0] = game_get_speed(gamespeed_fps);
-        with(instance_create_layer(x + 5, y - 20, "Instances", oBullet)) {
+        alarm[0] = game_get_speed(gamespeed_fps) / 4;
+		
+			if (global.dir == 2) {
+				with(instance_create_layer(x + 15, y - 30, "Instances", oBullet)) {
 
-			bullet_speed = 5;
+					bullet_speed = 4;
+					set_angle = 335;
 
+				}
+		}
+		else if (global.dir == 3) {
+				with(instance_create_layer(x - 10, y - 45, "Instances", oBullet)) {
+
+					bullet_speed = -4;
+					set_angle = 335;
+				}
+		}
+		
+		else if (global.dir == 1) {
+				with(instance_create_layer(x - 15, y - 28, "Instances", oBullet)) {
+
+					bullet_speed = -4;
+					set_angle = 25;
+				}
+		}
+		
+		else if (global.dir == 4) {
+				with(instance_create_layer(x - 10, y - 30, "Instances", oBullet)) {
+
+					bullet_speed = 4;
+					set_angle = 25;
+				}
 		}
 
 
 			if (global.dir == 1) {
 				sprite_index = sPlayerShootingL;
 				image_speed = 1;
+		
+			
+				
 			}
 			if (global.dir == 2) {
 				sprite_index = sPlayerShootingR ;
 				image_speed = 1;
+
 			}
 		
 			if (global.dir == 3) {
 				sprite_index = sPlayerShootingBL;
 				image_speed = 1;
+		
 			}
 		
 			if (global.dir == 4) {

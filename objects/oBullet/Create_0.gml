@@ -1,3 +1,4 @@
 
-bullet_speed = 5;
-image_angle = 150;
+bullet_speed = 0;
+set_angle = 150;
+
